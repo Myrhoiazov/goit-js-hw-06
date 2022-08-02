@@ -22,3 +22,44 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 400px;
+  object-fit: cover;
+}
+
+
+img{
+  display: block;
+  object-fit: cover;
+}
+
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+
+
+
+
+
+
+
