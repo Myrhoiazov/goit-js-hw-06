@@ -7,8 +7,6 @@ function handeleOnSubmitForm(event) {
 
   let { email, password } = event.target.elements;
 
-  //   console.log(obj);
-
   email = email.value;
   password = password.value;
 
@@ -18,8 +16,11 @@ function handeleOnSubmitForm(event) {
   };
 
     if(email === '' || password === '') {
-      alert('Please enter your details')
+      return alert('Please enter your details')
     }
+
+    console.log(userData);
 
   event.target.reset();
 }
+
